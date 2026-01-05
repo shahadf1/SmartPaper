@@ -46,8 +46,6 @@ Run them through the ML model.
 
 Return a similarity result.
 
-Project Structure smart-paper/ │ ├── backend/ │ ├── db.php │ ├── save_applicant.php │ ├── upload_signature.php │ ├── upload_new_signature.php │ └── verify_signature.php │ ├── frontend/ │ ├── form/ │ │ ├── index.php │ │ ├── form-card.php │ │ ├── verification.html │ │ ├── style.css │ │ └── main.js │ │ │ └── dashboard/ (future extension) │ ├── uploads/ │ └── signatures/ │ ├── ml/ │ ├── models.py │ ├── inference.py │ ├── test_inference.py │ └── siamese_signature_model.pth │ └── README.md
-
 Machine Learning Model Model Architecture
 
 Siamese Neural Network using a ResNet18-based encoder.
